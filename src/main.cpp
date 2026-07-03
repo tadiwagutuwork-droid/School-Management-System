@@ -19,7 +19,7 @@ int main()
 
 
         std::cout << "[Step 1] Initializing Database..." << std::endl;
-        Database db("school_test.db");
+        Database db("../data/school_test.db");
         std::cout << "Database initialized successfully.\n"
                   << std::endl;
 
